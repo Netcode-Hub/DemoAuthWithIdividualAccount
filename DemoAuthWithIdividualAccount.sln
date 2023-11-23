@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAuthWithIdividualAccount", "DemoAuthWithIdividualAccount\DemoAuthWithIdividualAccount\DemoAuthWithIdividualAccount.csproj", "{4BD79E26-4E81-4647-B97F-029F3FD7A853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAuthWithIdividualAccount.Client", "DemoAuthWithIdividualAccount\DemoAuthWithIdividualAccount.Client\DemoAuthWithIdividualAccount.Client.csproj", "{4F890166-E82D-4604-ABF1-8B66D84CCC93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BD79E26-4E81-4647-B97F-029F3FD7A853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD79E26-4E81-4647-B97F-029F3FD7A853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD79E26-4E81-4647-B97F-029F3FD7A853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD79E26-4E81-4647-B97F-029F3FD7A853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F890166-E82D-4604-ABF1-8B66D84CCC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F890166-E82D-4604-ABF1-8B66D84CCC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F890166-E82D-4604-ABF1-8B66D84CCC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F890166-E82D-4604-ABF1-8B66D84CCC93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE7C861E-0BE7-4650-AB59-26C8B045EC2D}
+	EndGlobalSection
+EndGlobal

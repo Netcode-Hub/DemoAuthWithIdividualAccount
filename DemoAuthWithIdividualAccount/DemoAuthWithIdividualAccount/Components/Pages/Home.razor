@@ -1,0 +1,15 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<AuthorizeView Roles="Administrators">
+    <br /><h2>You are Admin</h2>
+</AuthorizeView>
+
+<AuthorizeView Roles="Users">
+    <br /><h2>You are User</h2>
+</AuthorizeView>
